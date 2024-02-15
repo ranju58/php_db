@@ -14,7 +14,7 @@ if($conn->query($sql)==TRUE) {
     echo "Database created successfully";
 }
 else {
-    echo "Failed to create database". $conn->connect_error;
+    echo "Faile to create database". $conn->connect_error;
 
 }
 $conn->close() ;
